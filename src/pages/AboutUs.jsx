@@ -25,7 +25,7 @@ const HIGHLIGHTS = [
 ];
 
 const AboutUs = () => {
-  useEffect(() => { document.title = 'About Us — TechGear'; }, []);
+  useEffect(() => { document.title = 'About Us — E-Tech'; }, []);
 
   return (
     <div className="bg-white min-h-screen">
@@ -39,7 +39,7 @@ const AboutUs = () => {
             <span className="text-white font-medium">About Us</span>
           </nav>
           <motion.div initial={{ opacity: 0, y: 16 }} animate={{ opacity: 1, y: 0 }}>
-            <h1 className="text-4xl sm:text-5xl font-black text-white tracking-tight mb-3">About TechGear</h1>
+            <h1 className="text-4xl sm:text-5xl font-black text-white tracking-tight mb-3">About E-Tech</h1>
             <p className="text-blue-200 text-sm max-w-xl leading-relaxed">
               Pakistan's trusted gaming store — PlayStation, Xbox, Controllers, Headsets & accessories. 100% original. Cash on Delivery everywhere.
             </p>
@@ -78,7 +78,7 @@ const AboutUs = () => {
                 Bringing World-Class<br />Gaming Gear to Pakistan
               </h2>
               <p className="text-gray-500 text-sm leading-relaxed mb-4">
-                TechGear was founded with one goal — give every Pakistani gamer access to premium, authentic gaming equipment at fair prices. From PlayStation to Xbox, from headsets to networking gear, we carry it all.
+                E-Tech was founded with one goal — give every Pakistani gamer access to premium, authentic gaming equipment at fair prices. From PlayStation to Xbox, from headsets to networking gear, we carry it all.
               </p>
               <p className="text-gray-500 text-sm leading-relaxed mb-8">
                 We partner directly with authorized distributors to eliminate counterfeits and pass savings to our customers. Lahore, Karachi, Islamabad, Peshawar — we deliver everywhere in Pakistan.

@@ -152,7 +152,7 @@ const AdminOrders = () => {
   const openWhatsApp = (order) => {
     const c = order.customerInfo;
     const items = order.items.map(i => `• ${i.name} x${i.quantity} = Rs. ${(i.price * i.quantity).toLocaleString()}`).join('%0A');
-    const msg = `*New Order — Tech Gear*%0A%0A*Order:* ${order.orderNumber}%0A*Customer:* ${c.fullName}%0A*Phone:* ${c.phone}%0A*City:* ${c.city}%0A*Address:* ${c.address}%0A%0A*Items:*%0A${items}%0A%0A*Total:* Rs. ${order.totalAmount?.toLocaleString()}%0A*Payment:* Cash on Delivery`;
+    const msg = `*New Order — E-Tech*%0A%0A*Order:* ${order.orderNumber}%0A*Customer:* ${c.fullName}%0A*Phone:* ${c.phone}%0A*City:* ${c.city}%0A*Address:* ${c.address}%0A%0A*Items:*%0A${items}%0A%0A*Total:* Rs. ${order.totalAmount?.toLocaleString()}%0A*Payment:* Cash on Delivery`;
     window.open(`https://wa.me/${WHATSAPP_NUMBER}?text=${msg}`, '_blank');
   };
 

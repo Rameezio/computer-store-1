@@ -14,11 +14,11 @@ const Footer = () => {
           <div>
             <Link to="/" className="flex items-center gap-2.5 mb-4">
               <div className="w-9 h-9 bg-[#003791] rounded-lg flex items-center justify-center flex-shrink-0">
-                <span className="text-white font-black text-lg">T</span>
+                <span className="text-white font-black text-lg">E</span>
               </div>
               <div className="flex flex-col leading-none">
                 <span className="text-lg font-black tracking-tight text-white">
-                  TECH<span className="text-[#00d4ff]">GEAR</span>
+                  E-<span className="text-[#00d4ff]">TECH</span>
                 </span>
                 <span className="text-[9px] text-gray-500 tracking-widest uppercase">Gaming Store</span>
               </div>
@@ -118,7 +118,7 @@ const Footer = () => {
       {/* Bottom Bar */}
       <div className="border-t border-white/5 bg-[#111]">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-4 flex flex-col sm:flex-row items-center justify-between gap-3">
-          <p className="text-gray-600 text-xs">© 2026 TechGear. All Rights Reserved. Pakistan 🇵🇰</p>
+          <p className="text-gray-600 text-xs">© 2026 E-Tech. All Rights Reserved. Pakistan 🇵🇰</p>
           <div className="flex items-center gap-2">
             {[
               { label: 'COD', bg: '#003791' },

@@ -10,14 +10,14 @@ const Contact = () => {
   const [submitted, setSubmitted] = useState(false);
   const [sending, setSending] = useState(false);
 
-  useEffect(() => { document.title = 'Contact Us — TechGear'; }, []);
+  useEffect(() => { document.title = 'Contact Us — E-Tech'; }, []);
 
   const handleChange = (e) => setForm(p => ({ ...p, [e.target.name]: e.target.value }));
 
   const handleSubmit = (e) => {
     e.preventDefault();
     setSending(true);
-    const msg = `*Contact Form — TechGear*%0A%0A*Name:* ${encodeURIComponent(form.name)}%0A*Email:* ${encodeURIComponent(form.email)}%0A*Phone:* ${encodeURIComponent(form.phone)}%0A*Subject:* ${encodeURIComponent(form.subject)}%0A%0A*Message:*%0A${encodeURIComponent(form.message)}`;
+    const msg = `*Contact Form — E-Tech*%0A%0A*Name:* ${encodeURIComponent(form.name)}%0A*Email:* ${encodeURIComponent(form.email)}%0A*Phone:* ${encodeURIComponent(form.phone)}%0A*Subject:* ${encodeURIComponent(form.subject)}%0A%0A*Message:*%0A${encodeURIComponent(form.message)}`;
     setTimeout(() => {
       window.open(`https://wa.me/${WHATSAPP_NUMBER}?text=${msg}`, '_blank');
       setSending(false);

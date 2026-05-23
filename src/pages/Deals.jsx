@@ -13,7 +13,7 @@ const Deals = () => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    document.title = 'Deals — TechGear';
+    document.title = 'Deals — E-Tech';
     productsAPI.getAll({ limit: 24, sort: '-soldCount' })
       .then(res => {
         const all = res.products || [];

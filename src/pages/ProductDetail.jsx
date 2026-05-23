@@ -30,7 +30,7 @@ const ProductDetail = () => {
       const res = await productsAPI.getById(id);
       const p = res.product;
       setProduct(p);
-      document.title = `${p.name} — Tech Gear`;
+      document.title = `${p.name} — E-Tech`;
       if (p.category) {
         const related = await productsAPI.getAll({ category: p.category, limit: 4 });
         setRelatedProducts(related.products?.filter((r) => r._id !== p._id).slice(0, 4) || []);

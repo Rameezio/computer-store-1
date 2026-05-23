@@ -87,11 +87,11 @@ const Header = () => {
           {/* Logo */}
           <Link to="/" className="flex items-center gap-3 flex-shrink-0 group">
             <div className="w-10 h-10 bg-gradient-to-br from-[#003791] to-[#001e52] rounded-xl flex items-center justify-center flex-shrink-0 shadow-lg shadow-[#003791]/20 group-hover:scale-105 transition-all duration-300">
-              <span className="text-white font-black text-xl tracking-tighter">T</span>
+              <span className="text-white font-black text-xl tracking-tighter">E</span>
             </div>
             <div className="flex flex-col leading-none">
               <span className="text-xl md:text-2xl font-black tracking-tighter text-[#1a1a1a] group-hover:text-[#003791] transition-colors duration-300">
-                TECH<span className="text-[#003791]">GEAR</span>
+                E-<span className="text-[#003791]">TECH</span>
               </span>
               <span className="text-[10px] text-gray-500 font-bold tracking-[0.2em] uppercase mt-0.5">Gaming Store</span>
             </div>
