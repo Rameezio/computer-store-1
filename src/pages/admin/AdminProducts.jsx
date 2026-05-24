@@ -9,13 +9,13 @@ import {
 
 const CATEGORIES = [
   { value: 'controller', label: 'PlayStation'  },
-  { value: 'controller', label: 'Xbox'         },
-  { value: 'controller', label: 'Controllers'  },
+  { value: 'xbox',       label: 'Xbox'         },
+  { value: 'controllers',label: 'Controllers'  },
   { value: 'headset',    label: 'Headsets'     },
   { value: 'keyboard',   label: 'Keyboards'    },
   { value: 'mouse',      label: 'Mouse'        },
   { value: 'mousepad',   label: 'Mousepads'    },
-  { value: 'accessories',label: 'Networking'   },
+  { value: 'networking', label: 'Networking'   },
   { value: 'accessories',label: 'Accessories'  },
 ];
 
