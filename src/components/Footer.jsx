@@ -13,15 +13,11 @@ const Footer = () => {
           {/* Brand */}
           <div>
             <Link to="/" className="flex items-center gap-2.5 mb-4">
-              <div className="w-9 h-9 bg-[#003791] rounded-lg flex items-center justify-center flex-shrink-0">
-                <span className="text-white font-black text-lg">E</span>
-              </div>
-              <div className="flex flex-col leading-none">
-                <span className="text-lg font-black tracking-tight text-white">
-                  E-<span className="text-[#00d4ff]">TECH</span>
-                </span>
-                <span className="text-[9px] text-gray-500 tracking-widest uppercase">Gaming Store</span>
-              </div>
+              <img
+                src="/ChatGPT_Image_May_23__2026__05_13_43_PM-removebg-preview.png"
+                alt="E-Tech Logo"
+                className="h-10 w-auto object-contain"
+              />
             </Link>
             <p className="text-gray-500 text-xs leading-relaxed mb-5">
               Pakistan's trusted gaming store. PlayStation, Xbox, Controllers, Headsets & accessories — 100% original with Cash on Delivery.
