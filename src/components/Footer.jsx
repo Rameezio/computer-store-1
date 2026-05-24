@@ -16,7 +16,7 @@ const Footer = () => {
               <img
                 src="/ChatGPT_Image_May_23__2026__05_13_43_PM-removebg-preview.png"
                 alt="E-Tech Logo"
-                className="h-10 w-auto object-contain"
+                className="h-16 w-auto object-contain"
               />
             </Link>
             <p className="text-gray-500 text-xs leading-relaxed mb-5">

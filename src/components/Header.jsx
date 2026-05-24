@@ -89,7 +89,7 @@ const Header = () => {
             <img
               src="/ChatGPT_Image_May_23__2026__05_13_43_PM-removebg-preview.png"
               alt="E-Tech Logo"
-              className="h-12 w-auto object-contain group-hover:scale-105 transition-all duration-300"
+              className="h-20 w-auto object-contain group-hover:scale-105 transition-all duration-300"
             />
           </Link>
 
