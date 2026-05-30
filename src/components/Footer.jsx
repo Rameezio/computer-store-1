@@ -14,7 +14,7 @@ const Footer = () => {
           <div>
             <Link to="/" className="flex items-center gap-2.5 mb-4">
               <img
-                src="/ChatGPT_Image_May_23__2026__05_13_43_PM-removebg-preview.png"
+                src="/ChatGPT_Image_May_30__2026__07_47_36_PM-removebg-preview.png"
                 alt="E-Tech Logo"
                 className="h-16 w-auto object-contain"
               />
