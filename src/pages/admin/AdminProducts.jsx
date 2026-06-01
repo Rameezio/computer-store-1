@@ -11,6 +11,7 @@ const CATEGORIES = [
   { value: 'controller', label: 'PlayStation'     },
   { value: 'xbox',       label: 'Xbox'            },
   { value: 'controllers',label: 'Controllers'     },
+  { value: 'console',    label: 'Console'               },
   { value: 'disc',       label: 'Console Gaming (Discs)' },
   { value: 'headset',    label: 'Headsets'        },
   { value: 'keyboard',   label: 'Keyboards'       },
