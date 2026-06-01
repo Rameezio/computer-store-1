@@ -8,11 +8,10 @@ import {
 } from 'lucide-react';
 
 const CATEGORIES = [
-  { value: 'controller', label: 'PlayStation'     },
-  { value: 'xbox',       label: 'Xbox'            },
-  { value: 'controllers',label: 'Controllers'     },
-  { value: 'console',    label: 'Console'               },
-  { value: 'disc',       label: 'Console Gaming (Discs)' },
+  { value: 'playstation', label: 'PlayStation'    },
+  { value: 'xbox',        label: 'Xbox'           },
+  { value: 'controller',  label: 'Controllers'    },
+  { value: 'disc',        label: 'Console Gaming (Discs)' },
   { value: 'headset',    label: 'Headsets'        },
   { value: 'keyboard',   label: 'Keyboards'       },
   { value: 'mouse',      label: 'Mouse'           },

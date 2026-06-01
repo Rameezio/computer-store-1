@@ -10,10 +10,9 @@ import {
 } from 'lucide-react';
 
 const CATEGORIES = [
-  { id: 'controller',  name: 'PlayStation',    icon: Gamepad2   },
+  { id: 'playstation', name: 'PlayStation',    icon: Gamepad2   },
   { id: 'xbox',        name: 'Xbox',           icon: Gamepad2   },
-  { id: 'controllers', name: 'Controllers',    icon: Gamepad2   },
-  { id: 'console',     name: 'Console',        icon: Gamepad2   },
+  { id: 'controller',  name: 'Controllers',    icon: Gamepad2   },
   { id: 'disc',        name: 'Console Gaming', icon: Gamepad2   },
   { id: 'headset',     name: 'Headsets',       icon: Headphones },
   { id: 'keyboard',    name: 'Keyboards',      icon: Keyboard   },
