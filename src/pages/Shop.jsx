@@ -8,16 +8,18 @@ import { useToast } from '../components/Toast';
 import WhyChooseUs from '../components/WhyChooseUs';
 
 const CATEGORIES = [
-  { id: 'all',         name: 'All Products' },
-  { id: 'controller', name: 'PlayStation'   },
-  { id: 'controller', name: 'Xbox'          },
-  { id: 'controller', name: 'Controllers'   },
-  { id: 'headset',    name: 'Headsets'      },
-  { id: 'keyboard',   name: 'Keyboards'     },
-  { id: 'mouse',      name: 'Mouse'         },
-  { id: 'mousepad',   name: 'Mousepads'     },
-  { id: 'accessories',name: 'Networking'    },
-  { id: 'accessories',name: 'Accessories'   },
+  { id: 'all',         name: 'All Products'    },
+  { id: 'playstation', name: 'PlayStation'     },
+  { id: 'xbox',        name: 'Xbox'            },
+  { id: 'controller',  name: 'Controllers'     },
+  { id: 'disc',        name: 'Console Gaming'  },
+  { id: 'gaming',      name: 'Gaming'          },
+  { id: 'headset',     name: 'Headsets'        },
+  { id: 'keyboard',    name: 'Keyboards'       },
+  { id: 'mouse',       name: 'Mouse'           },
+  { id: 'mousepad',    name: 'Mousepads'       },
+  { id: 'networking',  name: 'Networking'      },
+  { id: 'accessories', name: 'Accessories'     },
 ];
 
 const SORT_OPTIONS = [
