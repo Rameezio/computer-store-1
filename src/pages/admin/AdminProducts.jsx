@@ -8,15 +8,16 @@ import {
 } from 'lucide-react';
 
 const CATEGORIES = [
-  { value: 'controller', label: 'PlayStation'  },
-  { value: 'xbox',       label: 'Xbox'         },
-  { value: 'controllers',label: 'Controllers'  },
-  { value: 'headset',    label: 'Headsets'     },
-  { value: 'keyboard',   label: 'Keyboards'    },
-  { value: 'mouse',      label: 'Mouse'        },
-  { value: 'mousepad',   label: 'Mousepads'    },
-  { value: 'networking', label: 'Networking'   },
-  { value: 'accessories',label: 'Accessories'  },
+  { value: 'controller', label: 'PlayStation'     },
+  { value: 'xbox',       label: 'Xbox'            },
+  { value: 'controllers',label: 'Controllers'     },
+  { value: 'disc',       label: 'Console Gaming (Discs)' },
+  { value: 'headset',    label: 'Headsets'        },
+  { value: 'keyboard',   label: 'Keyboards'       },
+  { value: 'mouse',      label: 'Mouse'           },
+  { value: 'mousepad',   label: 'Mousepads'       },
+  { value: 'networking', label: 'Networking'      },
+  { value: 'accessories',label: 'Accessories'     },
 ];
 
 const EMPTY_FORM = {

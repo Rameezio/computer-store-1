@@ -10,14 +10,15 @@ import {
 } from 'lucide-react';
 
 const CATEGORIES = [
-  { id: 'controller',  name: 'PlayStation', icon: Gamepad2   },
-  { id: 'xbox',        name: 'Xbox',        icon: Gamepad2   },
-  { id: 'controllers', name: 'Controllers', icon: Gamepad2   },
-  { id: 'headset',     name: 'Headsets',    icon: Headphones },
-  { id: 'keyboard',    name: 'Keyboards',   icon: Keyboard   },
-  { id: 'mouse',       name: 'Mouse',       icon: Mouse      },
-  { id: 'networking',  name: 'Networking',  icon: Wifi       },
-  { id: 'accessories', name: 'Accessories', icon: Package    },
+  { id: 'controller',  name: 'PlayStation',    icon: Gamepad2   },
+  { id: 'xbox',        name: 'Xbox',           icon: Gamepad2   },
+  { id: 'controllers', name: 'Controllers',    icon: Gamepad2   },
+  { id: 'disc',        name: 'Console Gaming', icon: Gamepad2   },
+  { id: 'headset',     name: 'Headsets',       icon: Headphones },
+  { id: 'keyboard',    name: 'Keyboards',      icon: Keyboard   },
+  { id: 'mouse',       name: 'Mouse',          icon: Mouse      },
+  { id: 'networking',  name: 'Networking',     icon: Wifi       },
+  { id: 'accessories', name: 'Accessories',    icon: Package    },
 ];
 
 const Header = () => {
