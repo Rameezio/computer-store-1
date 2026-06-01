@@ -14,6 +14,7 @@ const CATEGORIES = [
   { id: 'xbox',        name: 'Xbox',           icon: Gamepad2   },
   { id: 'controller',  name: 'Controllers',    icon: Gamepad2   },
   { id: 'disc',        name: 'Console Gaming', icon: Gamepad2   },
+  { id: 'gaming',      name: 'Gaming',         icon: Gamepad2   },
   { id: 'headset',     name: 'Headsets',       icon: Headphones },
   { id: 'keyboard',    name: 'Keyboards',      icon: Keyboard   },
   { id: 'mouse',       name: 'Mouse',          icon: Mouse      },
