@@ -36,7 +36,7 @@ const productSchema = new mongoose.Schema(
     category: {
       type: String,
       required: [true, 'Category is required'],
-      enum: ['keyboard', 'mouse', 'headset', 'monitor', 'mousepad', 'controller', 'accessories', 'laptop', 'other'],
+      enum: ['keyboard', 'mouse', 'headset', 'monitor', 'mousepad', 'controller', 'controllers', 'xbox', 'networking', 'accessories', 'laptop', 'other'],
     },
     images: {
       type: [String],
