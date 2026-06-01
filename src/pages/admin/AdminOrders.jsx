@@ -149,6 +149,17 @@ const AdminOrders = () => {
     }
   };
 
+  const handleDeleteOrder = async (orderId) => {
+    if (!window.confirm('Delete this order? This cannot be undone.')) return;
+    try {
+      await ordersAPI.delete(orderId);
+      setOrders(prev => prev.filter(o => o._id !== orderId));
+      addToast('Order deleted', 'success');
+    } catch {
+      addToast('Failed to delete order', 'error');
+    }
+  };
+
   const openWhatsApp = (order) => {
     const c = order.customerInfo;
     const items = order.items.map(i => `• ${i.name} x${i.quantity} = Rs. ${(i.price * i.quantity).toLocaleString()}`).join('%0A');
@@ -253,6 +264,9 @@ const AdminOrders = () => {
                       <div className="flex items-center justify-end gap-1.5">
                         <button onClick={() => setSelectedOrder(order)} className="w-7 h-7 rounded bg-blue-500/20 text-blue-400 hover:bg-blue-500/30 flex items-center justify-center" title="Detail">
                           <Eye className="w-3.5 h-3.5" />
+                        </button>
+                        <button onClick={() => handleDeleteOrder(order._id)} className="w-7 h-7 rounded bg-red-500/20 text-red-400 hover:bg-red-500/30 flex items-center justify-center" title="Delete">
+                          <Trash2 className="w-3.5 h-3.5" />
                         </button>
                         <button onClick={() => openWhatsApp(order)} className="w-7 h-7 rounded bg-green-500/20 text-green-400 hover:bg-green-500/30 flex items-center justify-center" title="WhatsApp">
                           <MessageCircle className="w-3.5 h-3.5" />

@@ -124,6 +124,16 @@ export const updateOrderStatus = asyncHandler(async (req, res) => {
   res.json({ success: true, order });
 });
 
+// @DELETE /api/orders/:id — admin only
+export const deleteOrder = asyncHandler(async (req, res) => {
+  const order = await Order.findByIdAndDelete(req.params.id);
+  if (!order) {
+    res.status(404);
+    throw new Error('Order not found');
+  }
+  res.json({ success: true, message: 'Order deleted successfully' });
+});
+
 // @GET /api/admin/stats — admin
 export const getAdminStats = asyncHandler(async (req, res) => {
   const [totalOrders, totalUsers, revenue, pendingOrders, totalProducts] = await Promise.all([

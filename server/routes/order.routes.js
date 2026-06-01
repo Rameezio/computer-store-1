@@ -5,6 +5,7 @@ import {
   getAllOrders,
   getOrder,
   updateOrderStatus,
+  deleteOrder,
   getAdminStats,
   getRecentOrders,
 } from '../controllers/order.controller.js';
@@ -19,6 +20,7 @@ router.get('/', protect, adminOnly, getAllOrders);
 router.get('/:id', protect, getOrder);
 router.patch('/:id/status', protect, adminOnly, updateOrderStatus);
 router.put('/:id/status', protect, adminOnly, updateOrderStatus);
+router.delete('/:id', protect, adminOnly, deleteOrder);
 
 // Admin stats (matches existing adminAPI.js calls)
 router.get('/admin/stats', protect, adminOnly, getAdminStats);

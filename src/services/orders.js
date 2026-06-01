@@ -35,5 +35,11 @@ export const ordersAPI = {
   cancel: async (id) => {
     const response = await axiosInstance.patch(`/orders/${id}/cancel`);
     return response.data;
+  },
+
+  // Delete order (admin only)
+  delete: async (id) => {
+    const response = await axiosInstance.delete(`/orders/${id}`);
+    return response.data;
   }
 };
