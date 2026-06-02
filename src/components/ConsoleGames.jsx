@@ -10,7 +10,7 @@ const consoles = [
     badge: 'PS5',
     badgeColor: '#003791',
     bg: 'from-[#003791] to-[#001f5a]',
-    slug: 'controller',
+    slug: 'playstation',
     image: 'https://images.unsplash.com/photo-1607853202273-797f1c22a38e?auto=format&fit=crop&w=600&q=80',
   },
   {
@@ -19,7 +19,7 @@ const consoles = [
     badge: 'PS4',
     badgeColor: '#0070cc',
     bg: 'from-[#0070cc] to-[#004a99]',
-    slug: 'controller',
+    slug: 'playstation',
     image: 'https://images.unsplash.com/photo-1580234811497-9df7fd2f357e?auto=format&fit=crop&w=600&q=80',
   },
   {
@@ -28,7 +28,7 @@ const consoles = [
     badge: 'Xbox',
     badgeColor: '#107C10',
     bg: 'from-[#107C10] to-[#084808]',
-    slug: 'controller',
+    slug: 'xbox',
     image: 'https://images.unsplash.com/photo-1621259182978-fbf93132d53d?auto=format&fit=crop&w=600&q=80',
   },
   {
@@ -37,7 +37,7 @@ const consoles = [
     badge: 'Xbox',
     badgeColor: '#1a9c1a',
     bg: 'from-[#1a9c1a] to-[#107C10]',
-    slug: 'controller',
+    slug: 'xbox',
     image: 'https://images.unsplash.com/photo-1605901309584-818e25960a8f?auto=format&fit=crop&w=600&q=80',
   },
 ]
