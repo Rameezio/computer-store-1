@@ -6,20 +6,18 @@ const categories = [
   {
     name: 'PlayStation',
     sub: 'PS5 & PS4',
-    slug: 'controller',
+    slug: 'playstation',
     color: '#003791',
     bg: '#e8eef8',
     image: 'https://images.unsplash.com/photo-1607853202273-797f1c22a38e?auto=format&fit=crop&w=400&q=80',
-    isLogo: false,
   },
   {
     name: 'Xbox',
     sub: 'Series X & S',
-    slug: 'controller',
+    slug: 'xbox',
     color: '#107C10',
     bg: '#e8f3e8',
     image: 'https://images.unsplash.com/photo-1621259182978-fbf93132d53d?auto=format&fit=crop&w=400&q=80',
-    isLogo: false,
   },
   {
     name: 'Controllers',
@@ -28,7 +26,14 @@ const categories = [
     color: '#1a1a1a',
     bg: '#f0f0f0',
     image: 'https://images.unsplash.com/photo-1599669454699-248893623440?auto=format&fit=crop&w=400&q=80',
-    isLogo: false,
+  },
+  {
+    name: 'Console Gaming',
+    sub: 'Discs & Games',
+    slug: 'disc',
+    color: '#1a1a1a',
+    bg: '#f0f0f0',
+    image: 'https://images.unsplash.com/photo-1493711662062-fa541adb3fc8?auto=format&fit=crop&w=400&q=80',
   },
   {
     name: 'Headsets',
@@ -37,7 +42,6 @@ const categories = [
     color: '#1a1a1a',
     bg: '#f0f0f0',
     image: 'https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=400&q=80',
-    isLogo: false,
   },
   {
     name: 'Keyboards',
@@ -46,7 +50,6 @@ const categories = [
     color: '#1a1a1a',
     bg: '#f0f0f0',
     image: 'https://images.unsplash.com/photo-1587829741301-dc798b83add3?auto=format&fit=crop&w=400&q=80',
-    isLogo: false,
   },
   {
     name: 'Mouse',
@@ -54,17 +57,15 @@ const categories = [
     slug: 'mouse',
     color: '#1a1a1a',
     bg: '#f0f0f0',
-    image: 'https://images.unsplash.com/photo-1527814050087-379381547969?auto=format&fit=crop&w=400&q=80',
-    isLogo: false,
+    image: 'https://images.unsplash.com/photo-1615663245857-ac93bb7c39e7?auto=format&fit=crop&w=400&q=80',
   },
   {
     name: 'Networking',
     sub: 'Cables & Routers',
-    slug: 'accessories',
+    slug: 'networking',
     color: '#1a1a1a',
     bg: '#f0f0f0',
     image: 'https://images.unsplash.com/photo-1544197150-b99a580bb7a8?auto=format&fit=crop&w=400&q=80',
-    isLogo: false,
   },
   {
     name: 'Accessories',
@@ -73,7 +74,6 @@ const categories = [
     color: '#1a1a1a',
     bg: '#f0f0f0',
     image: 'https://images.unsplash.com/photo-1593305841991-05c297ba4575?auto=format&fit=crop&w=400&q=80',
-    isLogo: false,
   },
 ]
 
